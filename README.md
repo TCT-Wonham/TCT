@@ -1,10 +1,10 @@
 # TCT
 In order to help readers to read TCT source code quickly, we write the following guide.
 
-## Development tool
+## 1.Development tool
 The current version of TCT is written in C code and developed in IDE (Microsoft Visual Studio 2010 Professional version). The solution file (TCT.sln) can be found in the root directory. One can open the file TCT.sln by Visual Studio 2010, and generate the solution directly. No further setting is needed for compile the solution. If any errors on lack of basic libraries when compiling the solution, please install them from the IDE.
 
-## Folder structure in the package
+## 2.Folder structure in the package
 **tct_src_20230514:   ----- root directory**
 
 **TCT.sln**----- Microsoft Visual Studio Solution
@@ -21,6 +21,6 @@ The current version of TCT is written in C code and developed in IDE (Microsoft 
 - TCT.vcproj.filters  ---- VC++ Project file (auto-generated)
 - TCT.vcxproj.user  ----- VC++ Project file (auto-generated)
 
-## Citing the Software
+## 3.Citing the Software
 Since a lot of time and effort has gone into the development, please cite the following publications if you are using the TCT for your own research:
 - W. Wonham. Design Software: TCT, Systems Control Group, ECE Dept., University of Toronto, Toronto, ON, Canada, 2023. 
